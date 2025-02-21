@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSH Virtual Herbal Garden</title>
+    <link  rel="stylesheet" href="../ayush/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="hex-grid"></div>
+        <div class="floating-particles">
+            <!-- Particles will be added by JavaScript -->
+        </div>
+        <div class="glow-orbs">
+            <!-- Orbs will be added by JavaScript -->
+        </div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="leaf-2d">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5,12C17.5,13.93 16.07,15.5 14.25,15.75V15.5C14.25,14.95 13.8,14.5 13.25,14.5C12.7,14.5 12.25,14.95 12.25,15.5V15.75C10.43,15.5 9,13.93 9,12C9,11.45 8.55,11 8,11C7.45,11 7,11.45 7,12C7,15.03 9.47,17.5 12.5,17.5V19L14,20.5L15.5,19V17.5C18.53,17.5 21,15.03 21,12C21,11.45 20.55,11 20,11C19.45,11 19,11.45 19,12H17.5M12,2C13.93,2 15.5,3.43 15.75,5.25H15.5C14.95,5.25 14.5,5.7 14.5,6.25C14.5,6.8 14.95,7.25 15.5,7.25H15.75C15.5,9.07 13.93,10.5 12,10.5C11.45,10.5 11,10.95 11,11.5C11,12.05 11.45,12.5 12,12.5C15.03,12.5 17.5,10.03 17.5,7V6.25C17.5,3.22 15.03,0.75 12,0.75C11.45,0.75 11,1.2 11,1.75C11,2.3 11.45,2.75 12,2.75V2M6.25,5.75C6.8,5.75 7.25,5.3 7.25,4.75C7.25,4.2 6.8,3.75 6.25,3.75C3.22,3.75 0.75,6.22 0.75,9.25C0.75,9.8 1.2,10.25 1.75,10.25C2.3,10.25 2.75,9.8 2.75,9.25C2.75,7.32 4.18,5.75 6,5.75H6.25Z"/>
+                    </svg>
+                </div>
+                <h1>AYUSH Virtual Herbal Garden</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for plants..." autocomplete="off">
+            </div>
+            <div class="header-actions">
+                <button class="header-btn feedback-btn">
+                    <i class="fas fa-comment"></i>
+                    Feedback
+                </button>
+                <button class="header-btn user-profile">
+                    <img src="images/default-user.jpg" alt="User Profile">
+                    Profile
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="garden-container">
+            <div class="plant-card">
+                <img src="images/tulsi.jpg" alt="Tulsi" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Tulsi (Holy Basil)</h3>
+                    <p class="plant-scientific">Ocimum sanctum</p>
+                    <p class="plant-description">
+                        Sacred herb with powerful medicinal properties. 
+                        Used in Ayurveda for respiratory health and stress relief.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Medicinal</span>
+                        <span class="property">Respiratory</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">128</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/Ashwagandha.webp" alt="Ashwagandha" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Ashwagandha</h3>
+                    <p class="plant-scientific">Withania somnifera</p>
+                    <p class="plant-description">
+                        Ancient medicinal herb known for its adaptogenic properties. 
+                        Helps reduce stress and anxiety while boosting energy levels.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Adaptogenic</span>
+                        <span class="property">Stress Relief</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">95</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/aloevera.webp" alt="Aloe Vera" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Aloe Vera</h3>
+                    <p class="plant-scientific">Aloe barbadensis miller</p>
+                    <p class="plant-description">
+                        Succulent plant species with remarkable healing properties. 
+                        Known for skin care and digestive health support.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Healing</span>
+                        <span class="property">Skincare</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">156</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/neem.webp" alt="Neem" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Neem</h3>
+                    <p class="plant-scientific">Azadirachta indica</p>
+                    <p class="plant-description">
+                        Traditional medicinal herb with powerful antimicrobial properties. 
+                        Used for skin conditions, dental care, and as a natural pesticide.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Antimicrobial</span>
+                        <span class="property">Medicinal</span>
+                        <span class="property">Pesticide</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">112</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/brahmi.webp" alt="Brahmi" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Brahmi</h3>
+                    <p class="plant-scientific">Bacopa monnieri</p>
+                    <p class="plant-description">
+                        Ancient Ayurvedic herb known for enhancing memory and cognitive function. 
+                        Helps reduce anxiety and improve mental clarity.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Memory</span>
+                        <span class="property">Cognitive</span>
+                        <span class="property">Calming</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">143</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/giloy.webp" alt="Giloy" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Giloy</h3>
+                    <p class="plant-scientific">Tinospora cordifolia</p>
+                    <p class="plant-description">
+                        Known as 'Amrita' or the root of immortality. Boosts immunity, 
+                        treats fever, and improves digestive health.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Immunity</span>
+                        <span class="property">Anti-fever</span>
+                        <span class="property">Digestive</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">167</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/shatarvari.webp" alt="Shatavari" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Shatavari</h3>
+                    <p class="plant-scientific">Asparagus racemosus</p>
+                    <p class="plant-description">
+                        Female reproductive tonic and adaptogenic herb. Supports hormonal balance, 
+                        improves immunity, and enhances vitality.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Women's Health</span>
+                        <span class="property">Adaptogenic</span>
+                        <span class="property">Vitality</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">134</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/triphala.webp" alt="Triphala" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Triphala</h3>
+                    <p class="plant-scientific">Three Fruits Combination</p>
+                    <p class="plant-description">
+                        Traditional Ayurvedic formula combining three fruits. Supports digestion, 
+                        detoxification, and overall wellness.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Digestive</span>
+                        <span class="property">Detox</span>
+                        <span class="property">Antioxidant</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">189</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/shankhpushpi.webp" alt="Shankhpushpi" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Shankhpushpi</h3>
+                    <p class="plant-scientific">Convolvulus pluricaulis</p>
+                    <p class="plant-description">
+                        Brain tonic herb that enhances memory and intellect. 
+                        Helps in reducing stress, anxiety, and improves sleep quality.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Brain Tonic</span>
+                        <span class="property">Memory</span>
+                        <span class="property">Sleep Aid</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">145</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/mulethi.webp" alt="Mulethi" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Mulethi (Licorice)</h3>
+                    <p class="plant-scientific">Glycyrrhiza glabra</p>
+                    <p class="plant-description">
+                        Sweet root with powerful anti-inflammatory properties. 
+                        Beneficial for respiratory health and digestive system.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Respiratory</span>
+                        <span class="property">Anti-inflammatory</span>
+                        <span class="property">Digestive</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">178</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/sarpagandha.webp" alt="Sarpagandha" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Sarpagandha</h3>
+                    <p class="plant-scientific">Rauwolfia serpentina</p>
+                    <p class="plant-description">
+                        Traditional herb used for blood pressure management. 
+                        Helps in treating anxiety, insomnia, and mental disorders.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Blood Pressure</span>
+                        <span class="property">Anxiety</span>
+                        <span class="property">Sleep</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">132</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-card">
+                <img src="images/guduchi.webp" alt="Guduchi" class="plant-image">
+                <div class="plant-info">
+                    <h3 class="plant-name">Guduchi</h3>
+                    <p class="plant-scientific">Tinospora cordifolia</p>
+                    <p class="plant-description">
+                        Powerful immunomodulator and adaptogenic herb. 
+                        Supports liver function, boosts immunity, and reduces stress.
+                    </p>
+                    <div class="plant-properties">
+                        <span class="property">Immunity</span>
+                        <span class="property">Liver Health</span>
+                        <span class="property">Adaptogenic</span>
+                    </div>
+                    <div class="card-actions">
+                        <div class="action-buttons">
+                            <button class="action-btn">
+                                <i class="far fa-heart"></i>
+                                <span class="likes-count">165</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-bookmark"></i>
+                            </button>
+                            <button class="action-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="learn-more">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <script src="../ayush/index.js"></script>
+</body>
+</html>
