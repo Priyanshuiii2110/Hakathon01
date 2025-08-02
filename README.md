@@ -40,7 +40,7 @@ Model Viewer
 bash
 Copy
 Edit
-git clone https://github.com/your-username/virtual-herbal-garden.git
+git clone https://github.com/your-username/herbal-garden.git
 2. Navigate to Project Directory
 bash
 Copy
@@ -59,8 +59,8 @@ Click Learn More to access detailed info from trusted sources.
 Explore virtual tours to view plants grouped by health benefit themes.
 
 🧑‍💻 Authors & Credits
-Developed by Team Dave Discoverers
-Submitted for Smart India Hackathon (SIH) 2024
+Developed by Team Tech Geeks
+Submitted for Allen Inter College Hackathon(2025)
 Problem Statement ID: 1555
 
 📄 License
